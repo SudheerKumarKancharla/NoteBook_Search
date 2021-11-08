@@ -1,0 +1,1 @@
+INSERT INTO note_book (id, text) VALUES (1, '');

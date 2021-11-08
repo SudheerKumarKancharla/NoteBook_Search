@@ -14,5 +14,5 @@ BackEnd Search Service for NoteBook
 
 ### Note
 1. Service contains H2 In-Memory database. The data given in the notes will be saved in note_book table.
-2. Refer End-Points.md for detailed information on end points.
+2. Refer [api-endpoints.md](https://github.com/SudheerKumarKancharla/NoteBook_Search/blob/main/api-endpoints.md) for detailed information on end points.
 

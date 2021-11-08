@@ -12,10 +12,7 @@ BackEnd Search Service for NoteBook
 * Maven
 * H2 Database
 
-## End Points
-* To Search the Word -> **(Get) /v1/search/{param}**
-* To Save the notes -> **(Put) /v1/notes**
-
 ### Note
-Service contains H2 In-Memory database. The data given in the notes will be saved in note_book table.
+1. Service contains H2 In-Memory database. The data given in the notes will be saved in note_book table.
+2. Refer End-Points.md for detailed information on end points.
 

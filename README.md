@@ -1,9 +1,9 @@
 # NoteBook_Search
-BackEnd Search Service for NoteBook
+BackEnd Service for NoteBook
 
 ## Instructions:
-* Take Search-0.0.1.jar from the target folder.
-* Execute `java -jar search-0.0.1.jar` 
+* Take NoteBook-1.0.0.jar from the target folder.
+* Execute `java -jar NoteBook-1.0.0.jar` 
 * Service will start running on 8888 port.
 
 ## Technologies
@@ -11,6 +11,7 @@ BackEnd Search Service for NoteBook
 * Java 11
 * Maven
 * H2 Database
+* Junit
 
 ### Note
 1. Service contains H2 In-Memory database. The data given in the notes will be saved in note_book table.

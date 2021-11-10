@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>com.lab.forward</groupId>
 	<artifactId>search</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>search</name>
+	<version>0.0.1</version>
+	<name>NoteBook</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>11</java.version>
@@ -42,6 +42,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<scope>test</scope>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -49,8 +54,12 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+					<configuration>
+        <finalName>NoteBook-1.0.0</finalName>
+    </configuration>
 			</plugin>
 		</plugins>
+		<finalName>NoteBook-1.0.0</finalName>
 	</build>
 
 </project>

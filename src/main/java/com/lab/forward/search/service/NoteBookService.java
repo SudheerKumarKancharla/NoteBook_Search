@@ -128,4 +128,9 @@ public class NoteBookService {
         // actually has the most recent cost counts
         return p[n];
     }
+
+    public NoteBook getNotesFromDB() {
+        NoteBook notes = noteRepo.findAll().get(0);
+        return notes;
+    }
 }
